@@ -73,7 +73,7 @@ clothing-ecommerce/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Laharivanaja/clothing-ecommerce.git>
 cd clothing-ecommerce
 ```
 
@@ -92,23 +92,14 @@ npm install --save-dev nodemon
 
 **Create .env file in backend folder:**
 ```env
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/clothing-ecommerce
-JWT_SECRET=your_super_secret_jwt_key_change_this_to_something_secure
+PPORT=5000
+MONGO_URI=mongodb+srv://dbUser:Lahari%40123@mycluster.cuiwodv.mongodb.net/clothing-ecommerce?retryWrites=true&w=majority&appName=myCluster
+JWT_SECRET=your_super_secret_jwt_key_change_this_to_something_secure_12345
 NODE_ENV=development
-EMAIL_USER=your-gmail@gmail.com
+EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-app-specific-password
 CLIENT_URL=http://localhost:3000
 ```
-
-**Setting up Gmail for Nodemailer:**
-1. Go to your Google Account settings
-2. Enable 2-Step Verification
-3. Generate an App Password:
-   - Go to Security → 2-Step Verification → App passwords
-   - Select "Mail" and "Other (Custom name)"
-   - Copy the generated password
-   - Use this password in `EMAIL_PASS`
 
 ### 3. Seed the Database
 
