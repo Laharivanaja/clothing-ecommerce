@@ -92,12 +92,12 @@ npm install --save-dev nodemon
 
 **Create .env file in backend folder:**
 ```env
-PPORT=5000
+PORT=5000
 MONGO_URI=mongodb+srv://dbUser:Lahari%40123@mycluster.cuiwodv.mongodb.net/clothing-ecommerce?retryWrites=true&w=majority&appName=myCluster
 JWT_SECRET=your_super_secret_jwt_key_change_this_to_something_secure_12345
 NODE_ENV=development
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-specific-password
+EMAIL_USER=lahariprasannayarlagadda@gmail.com
+EMAIL_PASS=eawd oien rooc kqbj
 CLIENT_URL=http://localhost:3000
 ```
 
